@@ -6766,6 +6766,7 @@ Hemlo, I am "A17" a WhatsApp bot create and recode by Shasmo to do everything th
   〢━━━ 🔍 *Search* 🔎 ━━━〢
   
  
+  ⌯     ${prefix}gpt
   ⌯     ${prefix}play
   ⌯     ${prefix}song
   ⌯     ${prefix}video
