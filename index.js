@@ -62,8 +62,8 @@ async function startA17() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Kai, the main Developer of this bot.\n\nThanks for using: A17 Bot.', 'aqua'))
-  console.log(color('\nYou can follow me on GitHub: Kai0071', 'aqua'))
+  console.log(color('\nHello, I am Shasmo, the main Developer of this bot.\n\nThanks for using: Maria.', 'aqua'))
+  console.log(color('\nYou can follow me on GitHub: Shasmo-0', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./A17-SESSION");
   const A17 = A17Connect({
@@ -141,20 +141,20 @@ async function startA17() {
     }
     let wm_fatih = { url: ppgc }
     if (pea[0].announce == true) {
-      //A17.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `A17 Bot`, wm_fatih, [])
+      //A17.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `Maria`, wm_fatih, [])
 
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!' })
     } else if (pea[0].announce == false) {
-      // A17.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `A17 Bot`, wm_fatih, [])
+      // A17.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `Maria`, wm_fatih, [])
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Opened!* Now *Everyone* can send Messages!' })
     } else if (pea[0].restrict == true) {
-      //A17.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `A17 Bot`, wm_fatih, [])
+      //A17.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `Maria`, wm_fatih, [])
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !' })
     } else if (pea[0].restrict == false) {
-      //A17.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `A17 Bot`, wm_fatih, [])
+      //A17.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Maria`, wm_fatih, [])
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !' })
     } else {
-      //A17.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `A17 Bot`, wm_fatih, [])
+      //A17.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Maria`, wm_fatih, [])
       A17textddfq = `Group Subject has been updated To:\n\n*${pea[0].subject}*`
       A17.sendMessage(pea[0].id, { image: wm_fatih, caption: A17textddfq })
     }
@@ -275,7 +275,7 @@ async function startA17() {
             A17text = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *A17 Bot*, Welcome to ${metadata.subject}.
+I am *Maria*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
