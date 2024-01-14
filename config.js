@@ -4,14 +4,14 @@ const chalk = require("chalk");
 
 //
 global.available = true;
-global.autoReadAll = false;
+global.autoReadAll = true;
 global.antitags = true;
 
 
 //auto functioner
-global.autoTyping = false;                //auto tying by default off.
-global.autoRecord = false;                //auto recording by default off.
-global.groupevent = false;                //This is the new variable for controlling group event handling.
+global.autoTyping = true;                //auto tying by default off.
+global.autoRecord = true;                //auto recording by default off.
+global.groupevent = true;                //This is the new variable for controlling group event handling.
 global.statusseen = true;                 //This is the new variable for controlling status seen.
 global.autoreadgc = true;
 
@@ -26,8 +26,8 @@ global.OwnerNumber = ["919400856482", "919362639362"];   //If you want singal nu
 global.ownertag = ["919400856482"];
 global.OwnerName = "Shasmo";
 global.BotName = "Maria";
-global.packname = "A17 Bot";                             //Do not change.
-global.author = "By: Kai";                               //Do not change.
+global.packname = "Maria";                             //Do not change.
+global.author = "By: Shasmo";                               //Do not change.
 global.BotSourceCode = "https://github.com/Kai0071/A17"; //Do not change.
 global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
 
@@ -37,7 +37,7 @@ global.sessionName = "session";                          //Do not change.
 
 
 //
-global.openAiAPI = "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";
+global.openAiAPI = "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";
 
 
 //
