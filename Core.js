@@ -503,7 +503,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
 
 
     //     const menulist = `
-    //     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Kai to take your WhatsApp usage into next level.
+    //     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Shasmo to take your WhatsApp usage into next level.
 
     //        「 System Info 」
 
@@ -533,7 +533,7 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
 
     //     Type *-menu* or press any button below to start using *${global.BotName}*
 
-    //     ©️ *${global.BotName}* All Rights Reserved by: *Kai*
+    //     ©️ *${global.BotName}* All Rights Reserved by: *Shasmo*
     //     `
     //         const qtod = m.quoted? "true":"false"
 
@@ -739,7 +739,7 @@ Typed *surrender* to surrender and admited defeat`
            headerType: 4, */
           contextInfo: {
             externalAdreply: {
-              title: "Powered by Kai",
+              title: "Powered by Shasmo",
               body: " ",
               thumbnail: fs.readFileSync("Assets/pic2.jpg"),
               mediaType: 1,
@@ -1102,7 +1102,7 @@ Typed *surrender* to surrender and admited defeat`
         const systemName = os.platform() + ' ' + os.release();
 
         const respon = `
-  🤖 *A17's Server Info* 🤖
+  🤖 *Maria's Server Info* 🤖
   
   *System*: ${systemName}
   
@@ -2126,7 +2126,7 @@ Typed *surrender* to surrender and admited defeat`
           ntnsfw.splice(off, 1);
           reply('Disabled NSFW Commands!');
         } else {
-          reply(`NSFW(not safe for work) feature has been enabled in this group, which means anyone here can accesss Adult commands!\n\nPlease use *'${prefix}nsfw on*' to enable NSFW commands or *'${prefix}nsfw off'* to disable them.`);
+          reply(`NSFW(not safe for work) feature, which means anyone here can accesss Adult commands!\n\nPlease use *'${prefix}nsfw on*' to enable NSFW commands or *'${prefix}nsfw off'* to disable them.`);
         }
       }
         break;
@@ -2700,7 +2700,7 @@ Typed *surrender* to surrender and admited defeat`
       case 'ghstalk': case 'githubstalk': case 'github': {
         A17.sendMessage(from, { react: { text: "🔍", key: m.key } })
 
-        if (!q) return reply(`Give me a user name like *${prefix}github Kai0071*`)
+        if (!q) return reply(`Give me a user name like *${prefix}github Shasmo-0*`)
 
         gitdata = await githubstalk.githubstalk(`${q}`)
         A17.sendMessage(m.chat, {
@@ -3810,7 +3810,7 @@ Typed *surrender* to surrender and admited defeat`
         if (!vcc) return reply("Link invalid!")
         if (isCreator) {
           await A17.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
-          reply("Succes!")
+          reply("Success!")
         } else {
           A17.query({
             tag: "iq",
@@ -5482,7 +5482,7 @@ _Click the button below to download_`
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "😺", key: m.key } })
         if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Kai`)
-        const gan = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+        const gan = ['0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
         const teng = gan[Math.floor(Math.random() * gan.length)]
         A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
         break;
@@ -5494,7 +5494,7 @@ _Click the button below to download_`
         A17.sendMessage(from, { react: { text: "😺", key: m.key } })
 
         if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Kai`)
-        const can = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+        const can = ['0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
         const tik = can[Math.floor(Math.random() * can.length)]
         A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
         break;
@@ -5515,7 +5515,7 @@ _Click the button below to download_`
         A17.sendMessage(from, { react: { text: "😺", key: m.key } })
 
         if (!text) return reply(`Tag Someone, Example : ${prefix + command} @Kai`)
-        const sangeh = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
+        const sangeh = ['0','1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47', '48', '49', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98', '99', '100']
         const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
         A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
         break;
@@ -6674,7 +6674,7 @@ _Click the button below to download_`
         A17.sendMessage(from, { react: { text: "✨", key: m.key } })
         const helpmenu = `Hemlo *${pushname}* Dear...!! ${nowtime} ,
   
-Hemlo, I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 
 
   ⌯    *Time* : ${kaitime}
@@ -6728,7 +6728,7 @@ Hemlo, I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything 
   ⌯     ${prefix}ban del
 
  
-  〢━━ ❅ Group Moderation ❅ ━━〢
+  〢━━ ❅ Group ❅ ━━〢
 
 
   ⌯     ${prefix}add
@@ -6744,7 +6744,9 @@ Hemlo, I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything 
   ⌯     ${prefix}setdesc
   ⌯     ${prefix}revoke
   ⌯     ${prefix}tagall
+  ⌯     ${prefix}tagadmins
   ⌯     ${prefix}hidetag
+  ⌯     ${prefix}here
   ⌯     ${prefix}nsfw
   ⌯     ${prefix}nsnfwmenu
 
@@ -6767,6 +6769,7 @@ Hemlo, I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything 
   
  
   ⌯     ${prefix}gpt
+  ⌯     ${prefix}dalle
   ⌯     ${prefix}play
   ⌯     ${prefix}song
   ⌯     ${prefix}video
@@ -6940,6 +6943,7 @@ Hemlo, I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything 
 
   ⌯     ${prefix}quote
   ⌯     ${prefix}weather
+  ⌯     ${prefix}apod
   ⌯     ${prefix}covid
   ⌯     ${prefix}earthquake
   ⌯     ${prefix}wiki
@@ -6950,6 +6954,7 @@ Hemlo, I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything 
  
   
   ⌯     ${prefix}qr
+  ⌯     ${prefix}cal
   ⌯     ${prefix}say
   ⌯     ${prefix}fliptext
   ⌯     ${prefix}toletter
