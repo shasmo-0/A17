@@ -502,40 +502,40 @@ module.exports = A17 = async (A17, m, chatUpdate, store) => {
     //   }
 
 
-         const menulist = `
-         Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Shasmo to take your WhatsApp usage into next level.
+    //     const menulist = `
+    //     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Shasmo to take your WhatsApp usage into next level.
 
-           「 System Info 」
+    //        「 System Info 」
 
-         Speed : ${latensie.toFixed(4)} miliseconds
-         Up Time : ${runtime(process.uptime())}
-         Bot Name : ${global.BotName}
-         Owner Name : ${global.OwnerName}
-         𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Linux
-         𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}
-
-
-            「 User Info 」
-
-         User Level: ${levelMenu}
-         User XP : ${xpMenu} \ ${reqXp}
-         User Role : ${role}
+    //     Speed : ${latensie.toFixed(4)} miliseconds
+    //     Up Time : ${runtime(process.uptime())}
+    //     Bot Name : ${global.BotName}
+    //     Owner Name : ${global.OwnerName}
+    //     𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Amazon AWS
+    //     𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}
 
 
-            「 User Bank 」
+    //        「 User Info 」
 
-         User Balance : ${uangku}
-         Iron : ${getBesi(m.sender)}
-         Gold : ${getEmas(m.sender)}
-         Emarald : ${getEmerald(m.sender)}
-         Potion : ${getPotion(m.sender)}
+    //     User Level: ${levelMenu}
+    //     User XP : ${xpMenu} \ ${reqXp}
+    //     User Role : ${role}
 
 
-         Type *.menu* or press any button below to start using *${global.BotName}*
+    //        「 User Bank 」
 
-         ©️ *${global.BotName}* All Rights Reserved by: *Shasmo*
-         `
-             const qtod = m.quoted? "true":"false"
+    //     User Balance : ${uangku}
+    //    //Iron : ${getBesi(m.sender)}
+    //     Gold : ${getEmas(m.sender)}
+    //     Emarald : ${getEmerald(m.sender)}
+    //     Potion : ${getPotion(m.sender)}
+
+
+    //     Type *-menu* or press any button below to start using *${global.BotName}*
+
+    //     ©️ *${global.BotName}* All Rights Reserved by: *Shasmo*
+    //     `
+    //         const qtod = m.quoted? "true":"false"
 
 
 
