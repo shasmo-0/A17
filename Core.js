@@ -2855,7 +2855,7 @@ Typed *surrender* to surrender and admited defeat`
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
         let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
-        let teks = ` 「  A17's pm user list  」\n\nTotal ${anu.length} users are using A17 in personal chat.`
+        let teks = ` 「  Maria's pm user list  」\n\nTotal ${anu.length} users are using Maria in personal chat.`
         for (let i of anu) {
           teks += `\n\nProfile : @${i.id.split('@')[0]}\nChat : ${i.unreadCount}\nLastchat : ${moment(i.conversationTimestamp * 1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`
         }
@@ -2870,7 +2870,7 @@ Typed *surrender* to surrender and admited defeat`
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
         let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
-        let teks = ` 「  A17's group user list  」\n\nTotal ${anu.length} users are using bot in Groups.`
+        let teks = ` 「  Maria's group user list  」\n\nTotal ${anu.length} users are using bot in Groups.`
         for (let i of anu) {
           let metadata = await A17.groupMetadata(i)
           if (metadata.owner === "undefined") {
