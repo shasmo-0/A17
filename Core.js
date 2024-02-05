@@ -690,16 +690,26 @@ Typed *surrender* to surrender and admited defeat`
 
 
       hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
-      kai: `My Boss is lost in another Multiverse, and I lost connection with him...`,
-      runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime:${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
+      shasmo: `My Boss is lost in another Multiverse, and I lost connection with him...`,
+      runtime: `Hey ${pushname}\n${nowtime}\n\nMy runtime: ${runtime(process.uptime())}\n\nPrefix is: *${prefix}*\n\nTime: ${kaitime}\n\nDate: ${kaidate}\n\nToday is ${currentDay}`,
       konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?`,
-      sasha: 'Only you...🫶🏻',
+      maria: 'Enthada',
+      mariechi: '(～￣▽￣)～',
       ping: `Hey ${pushname}, Pong ${latensie.toFixed(4)} ms`,
       'good morning': `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
       ohayo: `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
       'good afternoon': `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
       konnichiwa: `Good afternoon to you too ${pushname} ✨. Wishing you an enjoyable afternoon too 😇🤞🏻.`,
       'good night': `Good night to you too ${pushname} 😇. Sleep well and sweet dreams.`,
+      'I love you': `Sorry, I have a boyfriend`,
+      'i love you': `Sorry, I have a boyfriend`, 
+      'maria i love you': `Sorry, I have a boyfriend`,
+      'Maria i love you': `Sorry, I have a boyfriend`,
+      'maria I love you': `Sorry, I have a boyfriend`,
+      'Maria I love you': `Sorry, I have a boyfriend`,
+      'Ijj enthe chavanje': `Well like everyone else, I also don't wanna die`,
+      'Why are you not dead': `Well like everyone else, I also don't wanna die`,
+      'Why are you not dead?': `Well like everyone else, I also don't wanna die`,
 
     };
 
@@ -1331,7 +1341,7 @@ Typed *surrender* to surrender and admited defeat`
         }
 
         // Send the result as a response
-        reply(`You chose ${userMove}.\nA17 chose ${botMove}.\n${result}`);
+        reply(`You chose ${userMove}.\nMaria chose ${botMove}.\n${result}`);
       }
         break;
 
