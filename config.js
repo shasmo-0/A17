@@ -21,8 +21,8 @@ global.prefa = ["."];                                    //Default prefix here. 
 
 
 //
-global.Owner = ["919400856482", "919362639362"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["919400856482", "919362639362"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.Owner = ["919400856482", "918921037256"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
+global.OwnerNumber = ["919400856482", "918921037256"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
 global.ownertag = ["919400856482"];
 global.OwnerName = "Shasmo";
 global.BotName = "Maria";
@@ -37,7 +37,7 @@ global.sessionName = "session";                          //Do not change.
 
 
 //
-global.openAiAPI = "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";
+global.openAiAPI = "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";
 
 
 //

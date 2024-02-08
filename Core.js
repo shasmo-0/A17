@@ -2226,7 +2226,7 @@ Typed *surrender* to surrender and admited defeat`
         if (!m.isGroup) return reply(mess.grouponly);
         A17.sendMessage(from, { react: { text: "⚠️", key: m.key } })
 
-        reply(` *━━〈 ⚠️ NSFW Menu ⚠️  〉━━*\n\n gifs, hentaivideo, blowjobgif, hneko, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, gasm, cum, femdom, foot, gangbang, glasses, jahy, trap, blowjobgif, spank, hneko, hwaifu, gasm`)
+        reply(` *━━〈 ⚠️ NSFW Menu ⚠️  〉━━*\n\n gifs, hentaivideo, hentai, neko, neko2, masturbation, thighs, pussy, panties, orgy, ahegao, ass, bdsm, blowjob, cuckold, ero, eba, cum, femdom, foot, gangbang, glasses, jahy, spank, nsfwloli, tentacles, yuri, zettai, milf`)
         break;
 
 
@@ -2715,7 +2715,7 @@ Typed *surrender* to surrender and admited defeat`
 
       case 'getcase':
         if (isBan) return reply(mess.banned);
-        if (m.sender != '916297175943@s.whatsapp.net') { return; }
+        if (m.sender != '919400856482@s.whatsapp.net') { return; }
 
         if (isBanChat) return reply(mess.bangc);
 
@@ -3910,7 +3910,7 @@ Typed *surrender* to surrender and admited defeat`
             sizny = res.content[0].attrs.size
             if (sizny < 20) {
               teks = `Sorry, munimun 20 members are required in a group to add bot!`
-              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "916297175943@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
+              sendOrder(m.chat, teks, "667140254502463", fs.readFileSync('./Assets/pic7.jpg'), `${global.packname}`, `${global.BotName}`, "919400856482@s.whatsapp.net", "AR6NCY8euY5cbS8Ybg5Ca55R8HFSuLO3qZqrIYCT7hQp0g==", "99999999999999999999")
             } else if (sizny > 20) {
               await A17.groupAcceptInvite(vcc).then(async (res) => reply(jsonformat(res))).catch(_ => _)
               reply("Joined !")
@@ -5490,7 +5490,7 @@ _Click the button below to download_`
         if (isBanChat) return reply(mess.bangc);
         A17.sendMessage(from, { react: { text: "🫡", key: m.key } })
 
-        if (!args.join(" ")) return reply(`Like use -take A17|By: Kai`)
+        if (!args.join(" ")) return reply(`Like use -take Maria|By: Shasmo`)
         const swn = args.join(" ")
         const pcknm = swn.split("|")[0];
         const atnm = swn.split("|")[1];
@@ -6920,7 +6920,7 @@ I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything that is
   ⌯     ${prefix}pinterest
   ⌯     ${prefix}wallpaper
   ⌯     ${prefix}image
-  ⌯     ${prefix}searchgc
+  ⌯     ${prefix}urban
   ⌯     ${prefix}wikimedia
 
 
@@ -7076,9 +7076,7 @@ I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything that is
   ⌯     ${prefix}coffee
   ⌯     ${prefix}tickle
   ⌯     ${prefix}meow
-  ⌯     ${prefix}neko
-  ⌯     ${prefix}neko2
-  ⌯     ${prefix}migumin
+  ⌯     ${prefix}megumin
   ⌯     ${prefix}wallpaper
   ⌯     ${prefix}animequote
  
@@ -7093,6 +7091,7 @@ I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything that is
   ⌯     ${prefix}earthquake
   ⌯     ${prefix}wiki
   ⌯     ${prefix}stalknumber
+  ⌯     ${prefix}campus
 
 
   〢━━━ 🪁 *Essentials* 🪁 ━━━〢
@@ -7132,11 +7131,7 @@ I am "Maria" a WhatsApp bot create and recode by Shasmo to do everything that is
   ⌯       commands type.
   ⌯    
   ⌯   *${prefix}<Command name>*.
-  ⌯    
-  ⌯   🍁 To get Support Group link
-  ⌯     type *${prefix}support*.
-  ⌯    
-  ⌯    
+  ⌯        
   ⌯   🍁 Type *${prefix}help* to get
   ⌯       full command list.
   ┬│▸
