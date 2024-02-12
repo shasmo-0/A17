@@ -37,7 +37,7 @@ global.sessionName = "session";                          //Do not change.
 
 
 //
-global.openAiAPI = "API_KEY";
+global.openAiAPI = "System.getenv(API_KEY)";
 
 
 //
