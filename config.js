@@ -37,7 +37,7 @@ global.sessionName = "session";                          //Do not change.
 
 
 //
-global.openAiAPI = "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";
+global.openAiAPI = "${{ secrets.API_KEY }}";
 
 
 //
