@@ -1,5 +1,4 @@
 require("./config.js");
-const keep_alive = require('./keep_alive.js')
 const {
   default: A17Connect,
   useMultiFileAuthState,
