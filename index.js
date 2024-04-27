@@ -124,7 +124,7 @@ async function startA17() {
         if (pea[0].announce == true) {
         A17.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `${BotName}`, wm_fatih, [])
         } else if(pea[0].announce == false) {
-        A17.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `${BotName}`, wm_fatih, [])
+        A17.send5ButImg(pea[0].id, `Group has been *Opened!* Now *Everyone* can send Messages!`, `${BotName}`, wm_fatih, [])
         } else {
         A17.send5ButImg(pea[0].id, `Group Subject has been updated to *${pea[0].subject}*`, `${BotName}`, wm_fatih, [])
       }
