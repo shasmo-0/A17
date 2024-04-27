@@ -5760,8 +5760,15 @@ _Click the button below to download_`
           "send abusive words in any grup, excepting this grup, and send screenshot proof here"
         ]
         const A17dareww = dare[Math.floor(Math.random() * dare.length)]
-        buffer = await getBuffer(`https://images4.alphacoders.com/101/1016619.jpg`)
-        A17.sendMessage(from, { image: buffer, caption: '*You have chosen Dare...*\n\n' + A17dareww }, { quoted: m })
+        let buttonMessage = {
+          video: fs.readFileSync('./system/A17_4.mp4'), gifPlayback: true,
+          caption: '*You have chosen Dare...*\n\n' + A17dareww },
+
+          headerType: 4
+
+        }
+        A17.sendMessage(m.chat, buttonMessage, { quoted: m })
+    }
         break;
 
 
