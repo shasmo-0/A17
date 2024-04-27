@@ -5768,7 +5768,6 @@ _Click the button below to download_`
 
         }
         A17.sendMessage(m.chat, buttonMessage, { quoted: m })
-    }
         break;
 
 
@@ -5877,7 +5876,6 @@ _Click the button below to download_`
 
         }
         A17.sendMessage(m.chat, buttonMessage, { quoted: m })
-    }
         break;
 
 
