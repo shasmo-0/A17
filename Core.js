@@ -5869,8 +5869,15 @@ _Click the button below to download_`
           "do you play pubg, if you then send ur id number"
         ]
         const A17truthww = truth[Math.floor(Math.random() * truth.length)]
-        buffer = await getBuffer(`https://images2.alphacoders.com/650/650812.jpg`)
-        A17.sendMessage(from, { image: buffer, caption: '*You have chosen Truth...*\n' + A17truthww }, { quoted: m })
+        let buttonMessage = {
+          video: fs.readFileSync('./system/A17_4.mp4'), gifPlayback: true,
+          caption: '*You have chosen Dare...*\n\n' + A17dareww },
+
+          headerType: 4
+
+        }
+        A17.sendMessage(m.chat, buttonMessage, { quoted: m })
+    }
         break;
 
 
